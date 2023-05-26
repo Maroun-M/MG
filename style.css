@@ -649,3 +649,30 @@ body{
 .submit-btn:hover{
   background: #141E30;
 }
+
+.footer{
+  display: grid;
+  align-items:center;
+  justify-items:center;
+  color:#0c2551;
+  padding:10px 0 20px 0;
+}
+hr{
+  color:#0c2551
+}
+
+@media screen and (max-width:900px) {
+  .contact-us-card{
+    width:75%;
+  }
+  .form-group textarea{
+    width:70%;
+  }
+  
+}
+
+@media screen and (max-width:400px){
+  .form-group textarea{
+    width:85%;
+  }
+}
